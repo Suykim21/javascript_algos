@@ -30,8 +30,8 @@ function reverseInt(n) {
 // Method 2 - Manual
 
 function reverseInt2(n) {
-  const string = n.toString().split('')
-  let reversed = ''
+  const string = n.toString();
+  let reversed = '';
   for (let number of string) {
     reversed = number + reversed;
   }
