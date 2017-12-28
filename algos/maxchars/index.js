@@ -59,7 +59,10 @@ function maxChar(str) {
       maxChar = char;
     }
   }
+  console.log(max && maxChar);
   return maxChar;
 }
+
+maxChar('Hello There!');
 
 module.exports = maxChar;
