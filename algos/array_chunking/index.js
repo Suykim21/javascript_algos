@@ -54,10 +54,10 @@ function chunk2(arr, size) {
   // use let to allow changes over time
   let index = 0;
 
-  while (index < array.length){
+  while (index < arr.length){
     // slice(begin, end);
     // [1,2,3] => [[1,2], [3]]
-    chunked.push(array.slice(index, index + size));
+    chunked.push(arr.slice(index, index + size));
     index += size;
   }
 
